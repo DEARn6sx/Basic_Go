@@ -1,0 +1,20 @@
+
+// scanf
+func main() {
+	var name string
+	var score int
+	var score2 float32
+	fmt.Print("ป้อนชื่อ = ")
+	fmt.Scanf("%s", &name)
+	fmt.Println("Hi = ", name)
+
+	fmt.Print("ป้อนคะแนน = ")
+	fmt.Scanf("%d", &score)
+	fmt.Println("score is = ", score)
+
+	fmt.Print("ป้อนคะแนนFloat = ")
+	fmt.Scanf("%f", &score)
+	fmt.Println("score is = ", score2)
+
+
+}
