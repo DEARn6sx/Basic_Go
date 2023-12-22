@@ -17,4 +17,9 @@ func main() {
 	fmt.Println("My age is", age)
 	fmt.Println("My score is", score)
 	fmt.Println("My testing is", isPass)
+
+	//data type and value
+	address := "roi et"
+	fmt.Printf("My value address is %v\n", address)
+	fmt.Printf("My data type address is %T\n", address)
 }
