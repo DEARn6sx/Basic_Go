@@ -22,4 +22,14 @@ func main() {
 	address := "roi et"
 	fmt.Printf("My value address is %v\n", address)
 	fmt.Printf("My data type address is %T\n", address)
+
+	//math operator
+	// var num1 int = 10
+	// var num2 int = 3
+	var num1, num2 = 10, 3
+	fmt.Println("ผลบวก = ", num1+num2)
+	fmt.Println("ผลลบ = ", num1-num2)
+	fmt.Println("ผลคูณ = ", num1*num2)
+	fmt.Println("ผลหาร = ", num1/num2)
+	fmt.Println("ผลหานเอาเศษ = ", num1%num2)
 }
