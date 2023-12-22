@@ -32,4 +32,12 @@ func main() {
 	fmt.Println("ผลคูณ = ", num1*num2)
 	fmt.Println("ผลหาร = ", num1/num2)
 	fmt.Println("ผลหานเอาเศษ = ", num1%num2)
+
+	//Operator compare
+	fmt.Println("เท่ากันหรือไม้  = ", num1 == num2)
+	fmt.Println("ไม่เท่ากันหรือไม้  = ", num1 != num2)
+	fmt.Println(num1, "มากกว่า ", num2, "=", num1 > num2)
+	fmt.Println(num1, "น้อยกว่า ", num2, "=", num1 < num2)
+	fmt.Println(num1, "มากกว่าเท่ากับ ", num2, "=", num1 >= num2)
+	fmt.Println(num1, "น้อยกว่าเท่ากับ ", num2, "=", num1 <= num2)
 }
