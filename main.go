@@ -2,10 +2,18 @@ package main //คำสั่งและpackage จะถูกทำงาน
 
 import "fmt" //package จัดการ input output (เกี่ยวกับการแสดงผล)
 
-// scanf
+// if else
 func main() {
-	var name string
-	fmt.Print("ป้อนชื่อ = ")
-	fmt.Scanf("%s", &name)
-	fmt.Println("Hi = ", name)
+	var score int
+	fmt.Print("ป้อนคะแนน = ")
+	fmt.Scanf("%d", &score)
+	fmt.Println("score is  = ", score)
+
+	if score >= 50 {
+		fmt.Println("Pass")
+	} else if score < 50 {
+		fmt.Println("Fail")
+	} else {
+		fmt.Println("Error")
+	}
 }
