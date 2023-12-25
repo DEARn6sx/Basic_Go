@@ -1,0 +1,15 @@
+// if else
+func main() {
+	var score int
+	fmt.Print("ป้อนคะแนน = ")
+	fmt.Scanf("%d", &score)
+	fmt.Println("score is  = ", score)
+
+	if score >= 50 {
+		fmt.Println("Pass")
+	} else if score < 50 {
+		fmt.Println("Fail")
+	} else {
+		fmt.Println("Error")
+	}
+}
