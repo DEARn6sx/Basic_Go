@@ -2,18 +2,14 @@ package main //คำสั่งและpackage จะถูกทำงาน
 import "fmt" //fmt package จัดการ input output (เกี่ยวกับการแสดงผล)
 
 func main() {
-	result, check := sum(1001, 600)
+	result := sum(1001, 600,50,60,80,11111)
 	fmt.Println("ผลรวม = ", result)
-	fmt.Println("ผลรวมหาร = ", check)
 }
 
-func sum(num1, num2 int) (int, string) {
-	total := num1 + num2
-	status := ""
-	if total%2 == 0 {
-		status = "เลขคู่"
-	} else {
-		status = "เลขคี่"
+func sum(num... int) (int) {
+	total := 0
+	for _, value := range num {
+		total += value
 	}
-	return total, status
+	return total
 }
