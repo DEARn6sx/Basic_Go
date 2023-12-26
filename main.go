@@ -5,17 +5,15 @@ import "fmt"
 
 func main() {
 
-	//map
-	country_map := map[string]string{"th": "thailand", "jpn": "japan"}
-	fmt.Println(country_map)
-	fmt.Println(country_map["th"])
-	fmt.Println(country_map["jpn"])
+	for i := 0; i < 10; i++ {
 
-	value, check := country_map["th"]
-	//check = ตรวจสอบว่ามี "th" ไหม
-	if check {
-		fmt.Println((value))
-	} else {
-		fmt.Println("not found")
+		if i == 5 {
+			break
+		}
+		if i == 2 {
+			continue
+		}
+		fmt.Println("Hello Go", i)
 	}
+	fmt.Println("end")
 }
