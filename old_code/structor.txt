@@ -1,6 +1,3 @@
-package main //คำสั่งและpackage จะถูกทำงานในตอนเริ่มต้นในตอนที่ run program
-import "fmt" //fmt package จัดการ input output (เกี่ยวกับการแสดงผล)
-
 type Product struct {
 	name     string
 	price    float64
